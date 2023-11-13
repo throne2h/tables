@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблиця 2</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/tables.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="navigation" id="navigation">
+        <ul class="list">
+          <li class="list-item"><a href="index.html" class="list-link">Головна</a></li>
+          <li class="list-item"><a href="table1.html" class="list-link">Таблиця 1</a></li>
+          <li class="list-item"><a href="table2.html" class="list-link">Таблиця 2</a></li>
+          <li class="list-item"><a href="mondriana.html" class="list-link">Мондріана</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="content">
+    <div class="container">
+      <div class="tables-content">
+        <h1>Таблиця 2</h1>
+        <table class="table-two">
+          <tr>
+            <td colspan="2" class="td-four">1-2</td>
+            <td class="td-three">3</td>
+          </tr>
+          <tr>
+            <td class="td-four">4</td>
+            <td colspan="2" rowspan="2">
+              <table class="child-table">
+                <tr>
+                  <td>1</td>
+                  <td rowspan="3" class="td-h200px">2-5-8</td>
+                  <td rowspan="2" class="td-h200px">3-6</td>
+                </tr>
+                <tr>
+                  <td rowspan="2" class="td-h200px">4-7</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      &copy; Максим Семенов
+    </div>
+  </footer>
+</body>
+
+</html>
