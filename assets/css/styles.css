@@ -388,6 +388,7 @@ td {
   width: 75%;
 }
 
+.child-table td,
 .table-one td {
   width: 33.33%;
 }
@@ -407,10 +408,6 @@ td {
   margin: 10px 25px;
 }
 
-.child-table td {
-  width: 33.33%;
-}
-
 .table-two {
   width: 90%;
 }
@@ -424,7 +421,6 @@ td {
 }
 
 .mondriana {
-  border-collapse: collapse;
   margin: 0 auto;
 }
 
